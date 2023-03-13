@@ -1,10 +1,10 @@
 #!/bin/sh
 
-BAR_HEIGHT=18  # polybar height
+BAR_HEIGHT=35  # polybar height
 BORDER_SIZE=1  # border size from your wm settings
 YAD_WIDTH=222  # 222 is minimum possible value
 YAD_HEIGHT=193 # 193 is minimum possible value
-DATE="| uwu | $(date +" %H:%M |  %a, %d %b %Y")"
+DATE="uwu | $(date +" %H:%M |  %a, %d %b %Y")"
 
 case "$1" in
 --popup)
