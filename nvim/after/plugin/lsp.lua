@@ -19,39 +19,39 @@ lsp.configure('sumneko_lua', {
     }
 })
 
-lsp.configure('tailwindcss', {
-    filetypes = {"html", "rust", "aspnetcorerazor", "astro", "astro-markdown",
-    "blade", "django-html", "htmldjango", "edge", "eelixir", "elixir", "ejs", "erb", "eruby",
-    "gohtml", "haml", "handlebars", "hbs", "html-eex", "heex", "jade", "leaf", "liquid",
-    "markdown", "mdx", "mustache", "njk", "nunjuckis", "php", "razor", "slim", "twig", "css",
-    "less", "postcss", "sass", "scss", "stylus", "sugarss", "javascript", "javascriptreact", "reason",
-    "rescript", "typescript", "typescriptreact", "vue", "svelte"},
-    init_options = {
-        userLanguages = {
-            rust = "html",
-            html = "html"
-        }
-    },
-    settings = {
-        tailwindCSS = {
-            includeLanguages = {
-                rust = "html",
-                html = "html"
-            },
-            classAttributes = { "class", "className", "classList", "ngClass" },
-            lint = {
-                cssConflict = "warning",
-                invalidApply = "error",
-                invalidConfigPath = "error",
-                invalidScreen = "error",
-                invalidTailwindDirective = "error",
-                invalidVariant = "error",
-                recommendedVariantOrder = "warning"
-            },
-            validate = true
-        }
-    }
-})
+--lsp.configure('tailwindcss', {
+--    filetypes = {"html", "rust", "aspnetcorerazor", "astro", "astro-markdown",
+--    "blade", "django-html", "htmldjango", "edge", "eelixir", "elixir", "ejs", "erb", "eruby",
+--    "gohtml", "haml", "handlebars", "hbs", "html-eex", "heex", "jade", "leaf", "liquid",
+--    "markdown", "mdx", "mustache", "njk", "nunjuckis", "php", "razor", "slim", "twig", "css",
+--    "less", "postcss", "sass", "scss", "stylus", "sugarss", "javascript", "javascriptreact", "reason",
+--    "rescript", "typescript", "typescriptreact", "vue", "svelte"},
+--    init_options = {
+--        userLanguages = {
+--            rust = "html",
+--            html = "html"
+--        }
+--    },
+--    settings = {
+--        tailwindCSS = {
+--            includeLanguages = {
+--                rust = "html",
+--                html = "html"
+--            },
+--            classAttributes = { "class", "className", "classList", "ngClass" },
+--            lint = {
+--                cssConflict = "warning",
+--                invalidApply = "error",
+--                invalidConfigPath = "error",
+--                invalidScreen = "error",
+--                invalidTailwindDirective = "error",
+--                invalidVariant = "error",
+--                recommendedVariantOrder = "warning"
+--            },
+--            validate = true
+--        }
+--    }
+--})
 
 
 local cmp = require('cmp')
