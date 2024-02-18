@@ -1,0 +1,17 @@
+import = ["/home/bruno/.config/alacritty/themes/catppuccin-mocha.toml"]
+
+[font.normal]
+style = "bold"
+
+[shell]
+args = ["--login"]
+program = "/bin/zsh"
+
+[window]
+decorations = "none"
+dynamic_padding = true
+opacity = 0.1
+
+[window.padding]
+x = 2
+y = 2
